@@ -2,18 +2,59 @@
 <html lang="es">
 <head>
     <meta charset="UTF-8" />
-    <title>Héctor Morales Soto</title>
+    <title>Héctor Morales Soto - Equipo1</title>
     <style>
         body {
             font-family: Arial, sans-serif;
-            margin: 30px;
+            margin: 0;
             background: linear-gradient(135deg, #ade8f4, #caf0f8);
             color: #333;
         }
 
+        /* --- HEADER DEL EQUIPO (del código 2) --- */
+        header {
+            background-color: #4CAF50;
+            padding: 20px;
+            color: white;
+            text-align: center;
+        }
+
+        header img {
+            height: 80px;
+            vertical-align: middle;
+        }
+
+        header h1 {
+            display: inline-block;
+            margin-left: 20px;
+            vertical-align: middle;
+        }
+
+        nav {
+            margin: 20px 0;
+        }
+
+        .button {
+            padding: 12px 25px;
+            margin: 5px;
+            font-size: 15px;
+            background-color: #388e3c;
+            color: white;
+            border: none;
+            border-radius: 8px;
+            cursor: pointer;
+            transition: 0.3s ease;
+        }
+
+        .button:hover {
+            background-color: #2e7d32;
+            transform: scale(1.05);
+        }
+
+        /* --- CONTENEDOR DE HÉCTOR (del código 1) --- */
         .container {
             max-width: 900px;
-            margin: 0 auto;
+            margin: 30px auto;
             background: white;
             border-radius: 15px;
             box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
@@ -82,6 +123,20 @@
     </style>
 </head>
 <body>
+
+    <!-- Header del Equipo -->
+    <header>
+        <img src="logo.png" alt="Logotipo del equipo">
+        <h1>Equipo1</h1>
+        <nav>
+            <button class="button" onclick="location.href='index.html'">Inicio</button>
+            <button class="button" onclick="location.href='jenni.html'">Jenni</button>
+            <button class="button" onclick="location.href='hector.html'">Héctor</button>
+            <button class="button" onclick="location.href='yuliana.html'">Yuliana</button>
+        </nav>
+    </header>
+
+    <!-- Contenido de Héctor -->
     <div class="container">
         <div class="header">
             <h1>Héctor Morales Soto</h1>
@@ -90,16 +145,17 @@
 
         <div class="content">
             <p>Solo soy un niño normal.</p>
-            <p>Que vivira en una casa bonita.</p>
-            <p>la jenn no hace nada :(</p>
-            <p>gpi a las chelas.</p>
-            <p>ya nos vamos?.</p>
-            <p>pero si nos van a dar pastel o nelllll.</p>
-            <p>como que atualizarme.. ni que fuera windos 7 jhajajajja.</p>
-            <p>mi ex es puto  .</p>
-            <p>la yuliana esta loca.</p>
-            <p>definitivamente no saben hacer nada.</p>
+            <p>Que vivirá en una casa bonita.</p>
+            <p>La Jenn no hace nada :(</p>
+            <p>GPI a las chelas.</p>
+            <p>¿Ya nos vamos?</p>
+            <p>¿Pero si nos van a dar pastel o nel?</p>
+            <p>¿Cómo que actualizarme? Ni que fuera Windows 7 jajajaja.</p>
+            <p>Mi ex es puto.</p>
+            <p>La Yuliana está loca.</p>
+            <p>Definitivamente no saben hacer nada.</p>
         </div>
     </div>
+
 </body>
 </html>

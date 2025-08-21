@@ -2,44 +2,63 @@
 <html lang="es">
 <head>
     <meta charset="UTF-8" />
-    <title>Yuliana Mendoza</title>
+    <title>Yuliana Mendoza - Equipo1</title>
     <style>
         body {
             font-family: Arial, sans-serif;
-            margin: 30px;
+            margin: 0;
             background: linear-gradient(135deg, #d4a5d6, #f3c0cb); /* Fondo lila pastel */
             color: #333;
         }
 
+        /* --- HEADER DEL EQUIPO --- */
+        header {
+            background-color: #9c6ade;
+            padding: 20px;
+            color: white;
+            text-align: center;
+        }
+
+        header img {
+            height: 80px;
+            vertical-align: middle;
+        }
+
+        header h1 {
+            display: inline-block;
+            margin-left: 20px;
+            vertical-align: middle;
+        }
+
+        nav {
+            margin: 20px 0;
+        }
+
+        .button {
+            padding: 12px 25px;
+            margin: 5px;
+            font-size: 15px;
+            background-color: #6a4c9c;
+            color: white;
+            border: none;
+            border-radius: 8px;
+            cursor: pointer;
+            transition: 0.3s ease;
+        }
+
+        .button:hover {
+            background-color: #5a3d87;
+            transform: scale(1.05);
+        }
+
+        /* --- CONTENEDOR DE YULIANA (contenido original) --- */
         .container {
             max-width: 900px;
-            margin: 0 auto;
+            margin: 30px auto;
             background: white;
             border-radius: 15px;
             box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
             padding: 30px 40px;
-        }
-
-        /* Estilo para el menú superior */
-        nav {
-            display: flex;
-            justify-content: space-around;
-            margin-bottom: 30px;
-            border-bottom: 3px solid #9c6ade; /* Borde lila oscuro */
-            padding-bottom: 10px;
-        }
-
-        nav a {
-            text-decoration: none;
-            color: #6a4c9c; /* Lila oscuro */
-            font-size: 1.2rem;
-            padding: 10px 20px;
-            border-radius: 5px;
-            transition: background-color 0.3s ease;
-        }
-
-        nav a:hover {
-            background-color: #e8c8e9; /* Lila más suave al pasar el ratón */
         }
 
         .header {
@@ -47,7 +66,7 @@
             align-items: center;
             gap: 25px;
             margin-bottom: 35px;
-            border-bottom: 3px solid #9c6ade; /* Lila oscuro para el borde */
+            border-bottom: 3px solid #9c6ade;
             padding-bottom: 20px;
         }
 
@@ -56,21 +75,21 @@
             height: 130px;
             object-fit: cover;
             border-radius: 15px;
-            border: 3px solid #9c6ade; /* Borde lila oscuro */
-            box-shadow: 0 5px 15px rgba(156, 106, 222, 0.5); /* Sombra lila suave */
+            border: 3px solid #9c6ade;
+            box-shadow: 0 5px 15px rgba(156, 106, 222, 0.5);
             transition: transform 0.3s ease;
         }
 
         .header img:hover {
             transform: scale(1.05);
-            box-shadow: 0 8px 25px rgba(156, 106, 222, 0.7); /* Sombra más pronunciada */
+            box-shadow: 0 8px 25px rgba(156, 106, 222, 0.7);
         }
 
         .header h1 {
             font-size: 2.8rem;
-            color: #6a4c9c; /* Lila oscuro */
+            color: #6a4c9c;
             margin: 0;
-            text-shadow: 1px 1px 3px #d6a6f5; /* Sombra lila suave */
+            text-shadow: 1px 1px 3px #d6a6f5;
         }
 
         .content p {
@@ -79,16 +98,16 @@
             font-size: 1.1rem;
             color: #444;
             text-align: justify;
-            border-left: 6px solid #9c6ade; /* Lila oscuro */
+            border-left: 6px solid #9c6ade;
             padding-left: 18px;
-            background: #f6d9f1; /* Fondo pastel lila */
+            background: #f6d9f1;
             border-radius: 8px;
-            box-shadow: inset 2px 2px 6px rgba(156, 106, 222, 0.15); /* Sombra sutil */
+            box-shadow: inset 2px 2px 6px rgba(156, 106, 222, 0.15);
             transition: background-color 0.3s ease;
         }
 
         .content p:hover {
-            background-color: #e8c8e9; /* Lila más suave al pasar el ratón */
+            background-color: #e8c8e9;
         }
 
         .footer {
@@ -107,24 +126,25 @@
             .header img {
                 margin-bottom: 20px;
             }
-
-            nav {
-                flex-direction: column;
-                align-items: center;
-            }
         }
     </style>
 </head>
 <body>
-    <div class="container">
-        <!-- Menú de navegación -->
-        <nav>
-            <a href="#inicio">Inicio</a>
-            <a href="#jenny">Jenny</a>
-            <a href="#hector">Héctor</a>
-            <a href="#yo">Yo</a>
-        </nav>
 
+    <!-- Header del Equipo con botones -->
+    <header>
+        <img src="logo.png" alt="Logotipo del equipo">
+        <h1>Equipo1</h1>
+        <nav>
+            <button class="button" onclick="location.href='index.html'">Inicio</button>
+            <button class="button" onclick="location.href='jenni.html'">Jenni</button>
+            <button class="button" onclick="location.href='hector.html'">Héctor</button>
+            <button class="button" onclick="location.href='yuliana.html'">Yuliana</button>
+        </nav>
+    </header>
+
+    <!-- Contenido de Yuliana -->
+    <div class="container">
         <div class="header">
             <h1>Yuliana Mendoza</h1>
             <img src="imagen_yuliana.png" alt="Foto de Yuliana Mendoza" />
@@ -141,5 +161,6 @@
             <p>Equipo UNO</p>
         </div>
     </div>
+
 </body>
 </html>
