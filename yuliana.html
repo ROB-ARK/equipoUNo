@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8" />
+    <title>Yuliana Mendoza</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 30px;
+            background: linear-gradient(135deg, #d4a5d6, #f3c0cb); /* Fondo lila pastel */
+            color: #333;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 15px;
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+            padding: 30px 40px;
+        }
+
+        /* Estilo para el menú superior */
+        nav {
+            display: flex;
+            justify-content: space-around;
+            margin-bottom: 30px;
+            border-bottom: 3px solid #9c6ade; /* Borde lila oscuro */
+            padding-bottom: 10px;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: #6a4c9c; /* Lila oscuro */
+            font-size: 1.2rem;
+            padding: 10px 20px;
+            border-radius: 5px;
+            transition: background-color 0.3s ease;
+        }
+
+        nav a:hover {
+            background-color: #e8c8e9; /* Lila más suave al pasar el ratón */
+        }
+
+        .header {
+            display: flex;
+            align-items: center;
+            gap: 25px;
+            margin-bottom: 35px;
+            border-bottom: 3px solid #9c6ade; /* Lila oscuro para el borde */
+            padding-bottom: 20px;
+        }
+
+        .header img {
+            width: 130px;
+            height: 130px;
+            object-fit: cover;
+            border-radius: 15px;
+            border: 3px solid #9c6ade; /* Borde lila oscuro */
+            box-shadow: 0 5px 15px rgba(156, 106, 222, 0.5); /* Sombra lila suave */
+            transition: transform 0.3s ease;
+        }
+
+        .header img:hover {
+            transform: scale(1.05);
+            box-shadow: 0 8px 25px rgba(156, 106, 222, 0.7); /* Sombra más pronunciada */
+        }
+
+        .header h1 {
+            font-size: 2.8rem;
+            color: #6a4c9c; /* Lila oscuro */
+            margin: 0;
+            text-shadow: 1px 1px 3px #d6a6f5; /* Sombra lila suave */
+        }
+
+        .content p {
+            margin-bottom: 18px;
+            line-height: 1.7;
+            font-size: 1.1rem;
+            color: #444;
+            text-align: justify;
+            border-left: 6px solid #9c6ade; /* Lila oscuro */
+            padding-left: 18px;
+            background: #f6d9f1; /* Fondo pastel lila */
+            border-radius: 8px;
+            box-shadow: inset 2px 2px 6px rgba(156, 106, 222, 0.15); /* Sombra sutil */
+            transition: background-color 0.3s ease;
+        }
+
+        .content p:hover {
+            background-color: #e8c8e9; /* Lila más suave al pasar el ratón */
+        }
+
+        .footer {
+            margin-top: 40px;
+            text-align: center;
+            font-size: 1.2rem;
+            color: #6a4c9c;
+        }
+
+        @media (max-width: 600px) {
+            .header {
+                flex-direction: column;
+                text-align: center;
+            }
+
+            .header img {
+                margin-bottom: 20px;
+            }
+
+            nav {
+                flex-direction: column;
+                align-items: center;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!-- Menú de navegación -->
+        <nav>
+            <a href="#inicio">Inicio</a>
+            <a href="#jenny">Jenny</a>
+            <a href="#hector">Héctor</a>
+            <a href="#yo">Yo</a>
+        </nav>
+
+        <div class="header">
+            <h1>Yuliana Mendoza</h1>
+            <img src="imagen_yuliana.png" alt="Foto de Yuliana Mendoza" />
+        </div>
+
+        <div class="content">
+            <p><strong>Sobre mí:</strong> Soy una estudiante responsable y dedicada, siempre buscando mejorar en todo lo que hago. Me apasiona aprender cosas nuevas y soy muy curiosa, lo que me ayuda a mantenerme siempre motivada en mis estudios. Siempre busco ayudar a mis compañeros y estoy dispuesta a trabajar en equipo.</p>
+            <p>Como estudiante, soy comprometida con mis tareas y me esfuerzo al máximo para obtener buenos resultados. Me gusta organizar mi tiempo para poder balancear mis estudios con actividades extracurriculares, y siempre me aseguro de dar lo mejor de mí.</p>
+            <p>Además, me encanta participar en proyectos de grupo y trabajar colaborativamente para lograr objetivos comunes. Creo que el trabajo en equipo es fundamental para el éxito, y por eso siempre trato de ser una persona de apoyo para los demás.</p>
+        </div>
+
+        <!-- Pie de página -->
+        <div class="footer">
+            <p>Equipo UNO</p>
+        </div>
+    </div>
+</body>
+</html>
