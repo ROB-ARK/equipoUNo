@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Perfil de Jenny</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: linear-gradient(to right, #ffe4ec, #ffd6e8);
+      color: #444;
+    }
+
+    .header {
+      background-color: #f8a5c2;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+
+    .logo-title {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 20px;
+      flex-wrap: wrap;
+    }
+
+    .logo {
+      height: 60px;
+      width: auto;
+      border-radius: 10px;
+    }
+
+    .navbar {
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      background-color: #fcbad3;
+      padding: 15px;
+    }
+
+    .navbar a {
+      text-decoration: none;
+      color: white;
+      background-color: #f78fb3;
+      padding: 10px 20px;
+      border-radius: 25px;
+      font-weight: bold;
+      transition: background 0.3s;
+    }
+
+    .navbar a:hover {
+      background-color: #ea5c9c;
+    }
+
+    .main-content {
+      text-align: center;
+      padding: 60px 20px;
+    }
+
+    .main-content h2 {
+      font-size: 2em;
+      color: #e84393;
+    }
+
+    .profile-img {
+      width: 200px;
+      height: 200px;
+      object-fit: cover;
+      border-radius: 50%;
+      border: 5px solid #f8a5c2;
+      box-shadow: 0 0 10px rgba(0,0,0,0.15);
+    }
+
+    .description {
+      margin-top: 20px;
+      font-size: 1.1em;
+      max-width: 600px;
+      margin: 0 auto;
+    }
+  </style>
+</head>
+<body>
+  <header class="header">
+    <div class="logo-title">
+      <img src="img/logo.png" alt="Logo del equipo" class="logo" />
+      <h1>Equipo Uno</h1>
+    </div>
+  </header>
+
+  <nav class="navbar">
+    <a href="index.html">Inicio</a>
+    <a href="jenny.html">Jenny</a>
+    <a href="hector.html">Héctor</a>
+    <a href="yuli.html">Yuli</a>
+  </nav>
+
+  <main class="main-content">
+    <h2>Perfil de Jenny</h2>
+    <img src="img/jenny.jpg" alt="Foto de Jenny" class="profile-img" />
+    <div class="description">
+      <p><strong>Nombre:</strong> Jenny Canales</p>
+      <p><strong>Rol en el equipo:</strong> Mejor elemento</p>
+      <p><strong>Sobre mí:</strong> Soy bonitaaaa, todo que veer, la mayoria de las cosas las hago bieeen,menos el superar a mi ex ahí sí voy mal </p>
+    </div>
+  </main>
+</body>
+</html>
