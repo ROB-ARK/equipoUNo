@@ -1,14 +1,53 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-    <meta charset="UTF-8" />
-    <title>Héctor Morales Soto</title>
+    <meta charset="UTF-8">
+    <title>Héctor Morales Soto - Equipo1</title>
     <style>
         body {
             font-family: Arial, sans-serif;
-            margin: 30px;
+            margin: 0;
             background: linear-gradient(135deg, #ade8f4, #caf0f8);
             color: #333;
+        }
+
+        header {
+            background-color: #4CAF50;
+            padding: 20px;
+            color: white;
+            text-align: center;
+        }
+
+        header img {
+            height: 80px;
+            vertical-align: middle;
+        }
+
+        header h1 {
+            display: inline-block;
+            margin-left: 20px;
+            vertical-align: middle;
+        }
+
+        nav {
+            text-align: center;
+            margin-top: 20px;
+            margin-bottom: 40px;
+        }
+
+        .button {
+            padding: 15px 30px;
+            margin: 10px;
+            font-size: 16px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        .button:hover {
+            background-color: #45a049;
         }
 
         .container {
@@ -82,10 +121,26 @@
     </style>
 </head>
 <body>
+
+    <!-- Encabezado de Equipo 1 -->
+    <header>
+        <img src="logo.png" alt="Logotipo del equipo">
+        <h1>Equipo1</h1>
+    </header>
+
+    <!-- Navegación -->
+    <nav>
+        <button class="button" onclick="location.href='index.html'">Inicio</button>
+        <button class="button" onclick="location.href='jenni.html'">Jenni</button>
+        <button class="button" onclick="location.href='hector.html'">Hector</button>
+        <button class="button" onclick="location.href='yuliana.html'">Huliana</button>
+    </nav>
+
+    <!-- Contenido de Héctor Morales -->
     <div class="container">
         <div class="header">
             <h1>Héctor Morales Soto</h1>
-            <img src="tostitos.png" alt="Foto de Héctor Morales Soto 1 " />
+            <img src="tostitos.png" alt="Foto de Héctor Morales Soto 1" />
         </div>
 
         <div class="content">
@@ -96,10 +151,11 @@
             <p>ya nos vamos?.</p>
             <p>pero si nos van a dar pastel o nelllll.</p>
             <p>como que atualizarme.. ni que fuera windos 7 jhajajajja.</p>
-            <p>mi ex es puto  .</p>
+            <p>mi ex es puto.</p>
             <p>la yuliana esta loca.</p>
             <p>definitivamente no saben hacer nada.</p>
         </div>
     </div>
+
 </body>
 </html>
